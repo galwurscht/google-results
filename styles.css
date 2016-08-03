@@ -1,0 +1,131 @@
+#container {
+	min-height: 100%;
+	max-width: 100%;
+	top: 0;
+}
+
+.header {
+	width: 100%;
+	height: 59px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #f2f2f2;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.logo {
+	height: 100%;
+	width: 124px;
+	float: left;
+}
+
+.logo img {
+	height: auto;
+	width: auto;
+	max-height: 30px;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+.searchbar {
+	float: left;
+	height: 100%;
+	width: 590px;
+	display: block;
+	text-align: center;
+	margin-right: 0;
+	border-right: 0;
+	padding-right: 0;
+}
+
+
+.searchbar form .search {
+	height: 35px;
+	width: 580px;
+	background-image: url('mic.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 4%;
+	margin-top: 10px;
+	font-size: 18px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc;
+}
+
+.magnifier-button {
+	float: left;
+	height: 40px;
+	width: 40px;
+    border: none;
+    display: block;
+    margin-left: 5;
+    margin-right: 5px;
+    margin-top: 10px;
+    background-color: #4285f4;
+}
+
+.magnifier-button img {
+	height: 33px;
+	width: auto;
+	border: none;
+	margin-left: -9px;
+    margin-right: 25px;
+    margin-top: 5px;
+
+
+}
+
+.right-buttons {
+	float: right;
+	height: 100%;
+	widows: 200px;
+	display: block;
+	padding-top: 16px;
+	padding-right: 20px;
+}
+
+.right-buttons img {
+	height: 27px;
+	width: 27px;
+	padding-right: 20px;
+}
+
+
+.header2 {
+	width: 100%;
+	height: 59px;
+	clear: both;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.refine-search {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.refine-search h1{
+	margin-left: 85px;
+	margin-top: 0;
+	padding-top: 0;
+	font-size: 14px;
+	font: roboto-regular;
+	color: #777;
+	font-weight: normal;
+
+
+}
+
+.refine-search li {
+	float: left;
+	padding-left: 15px;
+	list-style-type: none;
+}
+
+.refine-search button {
+	margin: 50px;
+}
